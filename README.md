@@ -1,5 +1,6 @@
 # SystemC
-SystemC es un lenguaje para modelar Hardware, son ejemplos sencillos realizados en el Curso de Arquictectura Del Computador con el profesor Gerard Páez Monzon.
+SystemC es un lenguaje para modelar Hardware, son ejemplos sencillos realizados en el Curso de Arquictectura Del Computador con el profesor Gerard Páez Monzon. Para poder ejecutar y probar cada modulo se necesita instalar la Libreria de SystemC la cual pueden
+descargar en "http://www.accellera.org/downloads/standards/systemc" buscar el archivo INSTALL y seguir instrucciones.  
  
 #wikipedia:
 SystemC es frecuentemente descrito como un lenguaje de descripción de hardware como son VHDL y Verilog, pero es más adecuado describirlo como un lenguaje de descripción de sistemas, puesto que es realmente útil cuando se usa para modelar sistemas a nivel de comportamiento.
