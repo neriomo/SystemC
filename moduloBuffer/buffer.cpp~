@@ -1,0 +1,27 @@
+#include "buffer.h"
+#include <iostream>
+Buffer::Buffer(sc_module_name nm):sc_module(nm)
+{
+		
+	SC_METHOD(operation);
+		sensitive<<b_in<<a_in; // sensible a las entradas
+}
+
+Buffer::~Buffer(){}
+
+void Buffer::operation()
+{
+	sc_lv<8> aux;
+
+	if(b_in == 0) // XD
+		{
+			c_out.write(a_in.read());
+		}
+	else
+		{
+			c_out.write("zzzzzzzz");		
+		}
+}
+
+
+
