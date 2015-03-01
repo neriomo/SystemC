@@ -37,10 +37,10 @@ Los eventos (events) permiten la sincronización entre procesos.
 SystemC introduce varios tipos de datos para dar soporte al modelado de hardware.
 
 #Tipos extendidos
-sc_int<> entero con signo de 64 bits
-sc_uint<> entero sin signo de 64 bits
-sc_bigint<> entero con signo de precisión arbitraria
-sc_biguint<> entero sin signo de precisión arbitraria
+sc_int<> entero con signo de 64 bits                                                                                                   
+sc_uint<> entero sin signo de 64 bits                                                                                                  
+sc_bigint<> entero con signo de precisión arbitraria                                                                                   
+sc_biguint<> entero sin signo de precisión arbitraria                                                                                  
 
 #Tipos lógicos
 sc_bit un bit con dos únicos valores posibles2-valued single bit
