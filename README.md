@@ -43,17 +43,17 @@ sc_bigint<> entero con signo de precisión arbitraria
 sc_biguint<> entero sin signo de precisión arbitraria                                                                                  
 
 #Tipos lógicos
-sc_bit un bit con dos únicos valores posibles2-valued single bit
-sc_logic un bit en el que se pueden dar 4 valores
-sc_bv<> vector de sc_bit
-sc_lv<> vector de sc_logic
-sc_lv<> normalmente se expresa en números decimales
+sc_bit un bit con dos únicos valores posibles2-valued single bit                                                                       
+sc_logic un bit en el que se pueden dar 4 valores                                                                                      
+sc_bv<> vector de sc_bit                                                                                                               
+sc_lv<> vector de sc_logic                                                                                                             
+sc_lv<> normalmente se expresa en números decimales                                                                                    
 
 #Tipos de punto fijo
-sc_fixed<> templated signed fixed point
-sc_ufixed<> templated unsigned fixed point
-sc_fix untemplated signed fixed point
-sc_ufix untemplated unsigned fixed point
+sc_fixed<> templated signed fixed point                                                                                                
+sc_ufixed<> templated unsigned fixed point                                                                                             
+sc_fix untemplated signed fixed point                                                                                                  
+sc_ufix untemplated unsigned fixed point                                                                                               
 
 
 
